@@ -2,4 +2,191 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/sonho1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+}
+
+
+.banner p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+.banner ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.box1 {
+    border-radius: 10px;
+    margin: -10% auto 20px auto;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    background: #fff;
+    z-index: 2;
+    max-width: 70%;
+    height: auto;
+    text-align: center;
+}
+
+.sub-box1{
+    padding: 32px 24px;
+}
+
+.sub-box1 h2 {
+    margin: 0;
+    font-size: 3rem;
+    color: #333;
+}
+
+.sub-box1 p {
+    color: #666;
+    font-size: 1.5rem;
+}
+
+.box1 img {
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    height: auto;
+}
+
+.box2 {
+    background: #f7f7fa;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(58,97,134,0.08);
+    padding: 32px 24px;
+    margin: 40px auto 32px auto;
+    width: 70%;
+    text-align: center;
+}
+
+.box2 h2 {
+    margin-top: 0;
+    color: #3a6186;
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+
+.sub-box2 {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 24px auto 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 8px rgba(58,97,134,0.07);
+}
+.sub-box2 th, .sub-box2 td {
+    padding: 14px 12px;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: left;
+}
+.sub-box2 th {
+    background: #3a6186;
+    color: #fff;
+    font-size: 1.1rem;
+
+}
+.sub-box2 tr:last-child td {
+    border-bottom: none;
+}
+.sub-box2 td {
+    font-size: 1rem;
+    color: #333;
+}
+
+
+.box3 {
+    background: #f0f4fa;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(58,97,134,0.08);
+    padding: 32px 24px;
+    margin: 40px auto 32px auto;
+    width: 70%;
+    text-align: center;
+}
+
+.box3 h2 {
+    margin-top: 0;
+    color: #89253e;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.box3 ul {
+    list-style: none;
+    padding: 0;
+    margin: 24px auto 0 auto;
+    max-width: 700px;
+    text-align: left;
+}
+.box3 ul li {
+    background: #fff;
+    margin-bottom: 14px;
+    padding: 14px 18px;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(58,97,134,0.06);
+    font-size: 1.05rem;
+    color: #333;
+    position: relative;
+}
+.box3 ul li:before {
+    content: "★ ";
+    color: #3a6186;
+    font-size: 1.1rem;
+    margin-right: 6px;
+}
+
+
+#footer {
+    background: linear-gradient(90deg, #3a6186 0%, #89253e 100%);
+    color: #fff;
+    padding: 30px 0 15px 0;
+    text-align: center;
+    box-shadow: 0 -2px 16px rgba(0,0,0,0.08);
+    margin-top: 40px;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+#footer .copyright {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    font-weight: 400;
 }
